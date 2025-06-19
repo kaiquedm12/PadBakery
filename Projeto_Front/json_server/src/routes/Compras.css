@@ -1,0 +1,121 @@
+.compras-root {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px rgba(25, 118, 210, 0.08);
+  padding: 32px 24px 32px 24px;
+  margin-top: 24px;
+  animation: fadeIn 0.7s;
+}
+
+.compras-title {
+  color: #1976d2;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+
+.compras-info {
+  color: #1565c0;
+  font-size: 1.08rem;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.compras-msg {
+  color: #388e3c;
+  background: #e8f5e9;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.98rem;
+}
+
+.compras-lista {
+  margin-top: 8px;
+  overflow-x: auto;
+}
+
+.compras-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.04);
+  font-size: 1rem;
+}
+
+.compras-tabela th, .compras-tabela td {
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.compras-tabela th {
+  background: #e3f2fd;
+  color: #1976d2;
+  font-weight: 700;
+  border-bottom: 2px solid #b3c6e0;
+}
+
+.compras-tabela td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.compras-tabela .zerado td {
+  background: #ffebee;
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+.recompra-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.recompra-btn:disabled {
+  background: #b3c6e0;
+  cursor: not-allowed;
+}
+
+.recompra-btn:hover:not(:disabled) {
+  background: #1565c0;
+  transform: scale(1.03);
+}
+
+.compras-vazio {
+  text-align: center;
+  color: #b3c6e0;
+  font-style: italic;
+  padding: 16px 0;
+}
+
+.compras-loading {
+  text-align: center;
+  color: #1976d2;
+  font-size: 1.1rem;
+  padding: 24px 0;
+}
+
+@media (max-width: 700px) {
+  .compras-root {
+    padding: 12px 2vw;
+  }
+  .compras-tabela th, .compras-tabela td {
+    padding: 8px 4px;
+    font-size: 0.98rem;
+  }
+} 

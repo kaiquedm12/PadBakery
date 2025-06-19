@@ -1,0 +1,161 @@
+.login-container {
+    width: 35%;
+    margin: 110px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    height: calc(60vh - 60px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-input {
+    width: 100%; /* Largura total */
+    padding: 8px; /* Padding interno */
+    margin-bottom: 10px; /* Espaço abaixo do input */
+    border: 1px solid #ccc; /* Borda do input */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Box sizing para incluir padding e borda na largura total */
+  }
+  
+  .form-submit {
+    background-color: #500e13;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .form-submit:hover {
+    background-color: #500e13;
+  }
+
+  .form-submit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .divider span {
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+  }
+
+  .google-login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+  }
+
+  .google-login-button:hover {
+    background-color: #f5f5f5;
+  }
+
+  .google-login-button:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+
+.signup-text-link {
+  color: #007bff; /* Cor azul padrão para o link */
+  display: block; /* Faz o link aparecer em uma nova linha */
+  text-decoration: none; /* Remove o sublinhado do link */
+  font-size: 0.8rem; /* Tamanho da fonte do link */
+  margin-top: 10px; /* Espaço acima do link */
+  margin-bottom: 20px; /* Espaço abaixo do link antes do botão de 'Entrar' */
+}
+  
+.signup-text-link:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.voltar-redirect-button {
+  background-color: #4a525b; /* Cor azul padrão para o botão */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px; /* Espaçamento acima do botão */
+  text-decoration: none;
+}
+
+.voltar-redirect-button:hover {
+  background-color: #000000; /* Cor azul mais escura para o hover */
+}
+
+.voltar-redirect-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: #666;
+}
