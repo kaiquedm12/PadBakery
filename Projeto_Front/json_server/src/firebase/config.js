@@ -5,15 +5,14 @@ import { getFirestore } from 'firebase/firestore';
 
 // Configuração do Firebase - você precisará substituir com suas próprias credenciais
 const firebaseConfig = {
-    apiKey: "AIzaSyB4DIVjtDw7xweO0Nd3WvhEGdsJoORFnyg",
-    authDomain: "padbakery-4a821.firebaseapp.com",
-    projectId: "padbakery-4a821",
-    storageBucket: "padbakery-4a821.appspot.com",
-    messagingSenderId: "165596287237",
-    appId: "1:165596287237:web:1fdb6a2dba2e100e19a76c",
-    measurementId: "G-SNVNNSX95S"
+    apiKey: "chave_de_api_aqui",
+    authDomain: "dominio_de_autenticacao_aqui",
+    projectId: "nome_do_projeto_aqui",
+    storageBucket: "nome_do_bucket_aqui",
+    messagingSenderId: "identificador_de_mensagem_aqui",
+    appId: "id_do_app_aqui",
+    measurementId: "id_de_medicao_aqui" // Opcional
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
